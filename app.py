@@ -19,4 +19,10 @@ elif n < 0:
 else:
     print("enter a positive number")    
     
-            
+#summary 
+if n >= 4:
+    print(f"{name}, your plan is strong. you are aiming for {n} workouts each week.")
+elif 1 <= n < 4:
+    print(f"{name},your plan is good start.{n} workouts each week is realistic.")
+else:
+    print(f"{name},please choose a positive number of workouts.")
