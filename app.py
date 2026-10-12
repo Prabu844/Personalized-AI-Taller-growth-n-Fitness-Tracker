@@ -37,5 +37,13 @@ elif water > 4:
 else:
     print("enter a positive number")
 
+#sleep_goal
+sleep = int(input("How many hours of sleep you want each night? "))
+if sleep <  6:
+    print("you need to improve your sleeping time")
+elif sleep >= 6:
+    print(f"good target {name} thats a optimal sleeping time ")
+else:
+    print("enter a positive number")
 
                   
