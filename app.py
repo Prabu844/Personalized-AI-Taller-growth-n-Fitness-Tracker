@@ -26,3 +26,16 @@ elif 1 <= n < 4:
     print(f"{name},your plan is good start.{n} workouts each week is realistic.")
 else:
     print(f"{name},please choose a positive number of workouts.")
+
+
+#water_check
+water = int(input("how many glasses of water do you want to drink each day?"))
+if water <= 4:
+    print("you should improve your hydration")
+elif water > 4:
+    print(f"{name} good job, that is a healthy hydration goal")
+else:
+    print("enter a positive number")
+
+
+                  
