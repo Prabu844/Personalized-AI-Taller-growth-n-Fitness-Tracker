@@ -32,18 +32,20 @@ else:
 water = int(input("how many glasses of water do you want to drink each day?"))
 if water <= 4:
     print("you should improve your hydration")
-elif water > 4:
+else :
     print(f"{name} good job, that is a healthy hydration goal")
-else:
-    print("enter a positive number")
+
 
 #sleep_goal
 sleep = int(input("How many hours of sleep you want each night? "))
 if sleep <  6:
     print("you need to improve your sleeping time")
-elif sleep >= 6:
+else :
     print(f"good target {name} thats a optimal sleeping time ")
-else:
-    print("enter a positive number")
+
+
+#final_summary
+print(f"{name}!! you have set very good goals like {weekly_target} which are practical to achieve in age {age}")
+print(f"your goals : \n Weekly workout : {n} workout sessions a week \n Hydration goal : {water} glasses per day \n sleep_goal : {sleep} hours per day")
 
                   
