@@ -48,4 +48,32 @@ else :
 print(f"{name}!! you have set very good goals like {weekly_target} which are practical to achieve in age {age}")
 print(f"your goals : \n Weekly workout : {n} workout sessions a week \n Hydration goal : {water} glasses per day \n sleep_goal : {sleep} hours per day")
 
-                  
+#BMI_CALC
+weight = float(input("enter your current weight in kg:"))
+height_cm = float(input("enter your height in cm"))
+
+height_m = height_cm/100
+bmi = weight / height_m**2
+
+print(f"{name}, your BMI is {bmi:.1f}")
+
+if bmi < 18.5:
+    print("you are underweight. consider increasing nutrition and strength training")
+elif bmi < 25:
+    print("your BMI is in a healthy range.Great job!")
+elif bmi < 30:
+    print("You are overweight.A balanced diet and regular exercise will help.")
+else:
+    print("your BMI is in the obese range.considerspeaking with a health professional.")
+
+
+print(f"""
+{name}'s health summary:
+- Goal: {goal}
+- Age: {age}
+- weekly workouts: {n}
+- water goal: {water} glasses/day
+- sleep goal :{sleep} hours/night
+- BMI: {bmi:.1f}
+""")
+
